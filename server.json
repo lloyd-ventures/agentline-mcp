@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "nz.agentline/agentline-nz",
+  "title": "Agentline NZ: email inboxes for AI assistants",
+  "description": "Give your AI assistant its own email inbox: send, read and catch sign-in codes. Texting coming soon.",
+  "version": "1.2.1",
+  "websiteUrl": "https://agentline.nz",
+  "icons": [
+    { "src": "https://agentline.nz/og/logo.png", "mimeType": "image/png", "sizes": ["512x512"] },
+    { "src": "https://agentline.nz/favicon.svg", "mimeType": "image/svg+xml", "sizes": ["any"] }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentline.nz/mcp"
+    }
+  ]
+}
